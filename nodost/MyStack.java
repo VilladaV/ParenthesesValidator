@@ -6,11 +6,16 @@ package nodost;
 
 /**
  *
- * @author Johan Villada
+ * 
+ *
+ * Author:      Johan Andrés Villada
+ * Date:        2025-09-26
+ * Version:     1.0
  * @param <T>
  */
+
 public class MyStack<T> {
-    // Nodo interno privado: genérico
+    // Nodo interno privado generico
     private static class Node<T> {
         T data;
         Node<T> next;

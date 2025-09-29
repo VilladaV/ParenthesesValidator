@@ -5,9 +5,22 @@
 package nodost;
 
 /**
- *
- * @author Johan Villada
+ * Author:      Johan Andrés Villada
+ * Date:        2025-09-26
+ * Version:     1.0
  */
+
+
+/**
+ * con método estático isBalanced(String) que valida
+ * el balanceo de paréntesis () [] {}
+ * 
+ *  - Recorre la cadena con un unico for O(n) tiempo
+ *  - Ignora caracteres que no son paréntesis
+ *  - Devuelve true si está balanceado y false si no
+ */
+
+
 public class ParenthesesValidator {
 
     /**

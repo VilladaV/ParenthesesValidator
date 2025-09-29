@@ -6,7 +6,18 @@ package nodost;
 
 /**
  *
- * @author Johan Villada
+ * 
+ *
+ * Author:      Johan Andrés Villada
+ * Date:        2025-09-27
+ * Version:     1.0
+ * 
+ */
+
+
+/**
+ * Excepcion de runtime que se lanza al intentar extraer o consultar
+ * el tope de una pila que esta vacía
  */
 public class EmptyStackException extends RuntimeException {
     public EmptyStackException() { super(); }
